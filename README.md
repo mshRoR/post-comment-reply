@@ -1,7 +1,6 @@
-# README
+# How to Setup post-comment-reply application?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It's a simple Post, comment according to post and reply according to post comments.
 
 Things you may want to cover:
 
