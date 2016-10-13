@@ -4,20 +4,14 @@ It's a simple Post, comment according to post and reply according to post commen
 
 Things you may want to cover:
 
-* Ruby version
+* 1. bundle install
 
-* System dependencies
+* 2. rails db:create
 
-* Configuration
+* 3. rails db:migrate
 
-* Database creation
+* Dummy Post, Comment and Reply create
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* bundle exec rake post_comment_reply:post_comment_reply_create
 
 * ...
