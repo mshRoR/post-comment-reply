@@ -30,6 +30,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'awesome_print', require:'ap'
+  gem 'better_errors'
+  gem 'binding_of_caller' # For use advanced features of better_errors
+  gem 'pry-rails'         # write "binding.pry" where you want to halted execution and type "next" execute code or "exit"
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
